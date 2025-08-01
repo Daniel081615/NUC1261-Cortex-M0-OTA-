@@ -1,0 +1,46 @@
+# Keil C 專案常見忽略檔案
+
+# 目錄
+Listings/
+Objects/
+Output/
+DebugConfig/
+*.dep/
+*.d/
+
+# 生成檔
+*.axf
+*.elf
+*.hex
+*.bin
+*.lst
+*.map
+*.o
+*.obj
+*.crf
+*.htm
+*.tra
+*.plg
+*.iex
+*.sct
+*.lnp
+*.bak
+*.uvgui.*
+
+# Keil 專案備份檔
+*.uvoptx
+*.uvguix.*
+
+# 其他常見不需上傳的檔案
+*.log
+*.tmp
+*.user
+*.aps
+*.suo
+*.ncb
+
+# 忽略 library
+*.lib
+
+# VS Code 設定
+.vscode/
