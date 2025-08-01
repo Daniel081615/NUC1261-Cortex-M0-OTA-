@@ -1,0 +1,20 @@
+--cpu Cortex-M0
+".\objects\system_nuc1261.o"
+".\objects\startup_nuc1261.o"
+".\objects\main.o"
+".\objects\crc_util.o"
+".\objects\fmc_user.o"
+".\objects\fw_metadata.o"
+".\objects\fw_ota_mark_setup.o"
+".\objects\fw_selfcheck.o"
+".\objects\fw_status.o"
+".\objects\uart_comm.o"
+".\objects\uart_user.o"
+".\objects\wdt_user.o"
+".\objects\crc.o"
+".\objects\fmc.o"
+".\objects\wdt.o"
+--strict --scatter ".\Objects\Fw_ota.sct"
+--map --first='startup_NUC1261.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Fw_ota.map" -o .\Objects\Fw_ota.axf

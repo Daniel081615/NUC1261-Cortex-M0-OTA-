@@ -1,0 +1,18 @@
+--cpu Cortex-M0
+".\obj\system_nuc1261.o"
+".\obj\startup_nuc1261.o"
+".\obj\main.o"
+".\obj\isp_user.o"
+".\obj\fw_metadata.o"
+".\obj\fmc_user.o"
+".\obj\select_fw.o"
+".\obj\uart_transfer.o"
+".\obj\targetdev.o"
+".\obj\crc_user.o"
+".\obj\crc.o"
+".\obj\fmc.o"
+".\obj\wdt.o"
+--library_type=microlib --strict --scatter ".\obj\Bootloader_ota.sct"
+--map --first='startup_NUC1261.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\Bootloader_ota.map" -o .\obj\Bootloader_ota.axf

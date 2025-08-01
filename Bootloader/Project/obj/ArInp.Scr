@@ -1,0 +1,14 @@
+--create .\obj\Bootloader_ota.lib
+.\obj\system_nuc1261.o
+.\obj\startup_nuc1261.o
+.\obj\main.o
+.\obj\isp_user.o
+.\obj\fw_metadata.o
+.\obj\fmc_user.o
+.\obj\select_fw.o
+.\obj\uart_transfer.o
+.\obj\targetdev.o
+.\obj\crc_user.o
+.\obj\crc.o
+.\obj\fmc.o
+.\obj\wdt.o

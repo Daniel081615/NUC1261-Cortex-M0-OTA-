@@ -1,0 +1,400 @@
+Dependencies for Project 'Bootloader_ota', Target 'ISP_UART': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (..\..\Library\Device\Nuvoton\NUC1261\Source\system_NUC1261.c)(0x67F63398)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/system_nuc1261.o -MMD)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+F (..\..\Library\Device\Nuvoton\NUC1261\Source\ARM\startup_NUC1261.s)(0x683FF5EC)(--cpu Cortex-M0 -g --pd "__MICROLIB SETA 1" --diag_suppress=A1950W-I.\RTE\_ISP_UART-IC:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\barry\AppData\Local\arm\packs\Nuvoton\NuMicroM0_DFP\1.0.0\Device\NUC1261\Include--pd "__UVISION_VERSION SETA 542"--pd "_RTE_ SETA 1"-o .\obj\startup_nuc1261.o--depend .\obj\startup_nuc1261.d)
+F (..\Bootloader_IAP\main.c)(0x6847F256)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/main.o -MMD)
+I (..\Bootloader_IAP\targetdev.h)(0x683FA914)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+I (..\Bootloader_IAP\ISP_USER.h)(0x683FB398)
+I (..\Bootloader_IAP\fmc_user.h)(0x6826D4BC)
+I (..\Bootloader_IAP\fw_metadata.h)(0x684287F4)
+I (..\Bootloader_IAP\crc_user.h)(0x683FA836)
+I (..\Bootloader_IAP\uart_transfer.h)(0x6838424A)
+I (..\Bootloader_IAP\Select_fw.h)(0x68416D9C)
+F (..\Bootloader_IAP\isp_user.c)(0x6847EF34)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/isp_user.o -MMD)
+I (..\Bootloader_IAP\isp_user.h)(0x683FB398)
+I (..\Bootloader_IAP\fmc_user.h)(0x6826D4BC)
+I (..\Bootloader_IAP\targetdev.h)(0x683FA914)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+I (..\Bootloader_IAP\fw_metadata.h)(0x684287F4)
+I (..\Bootloader_IAP\crc_user.h)(0x683FA836)
+I (..\Bootloader_IAP\uart_transfer.h)(0x6838424A)
+I (..\Bootloader_IAP\Select_fw.h)(0x68416D9C)
+F (..\Bootloader_IAP\fw_metadata.c)(0x6847EE34)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/fw_metadata.o -MMD)
+I (..\Bootloader_IAP\fw_metadata.h)(0x684287F4)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+I (..\Bootloader_IAP\fmc_user.h)(0x6826D4BC)
+I (..\Bootloader_IAP\targetdev.h)(0x683FA914)
+I (..\Bootloader_IAP\ISP_USER.h)(0x683FB398)
+I (..\Bootloader_IAP\crc_user.h)(0x683FA836)
+F (..\Bootloader_IAP\fmc_user.c)(0x6847EE8F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/fmc_user.o -MMD)
+I (..\Bootloader_IAP\fmc_user.h)(0x6826D4BC)
+I (..\Bootloader_IAP\targetdev.h)(0x683FA914)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+I (..\Bootloader_IAP\ISP_USER.h)(0x683FB398)
+I (..\Bootloader_IAP\fw_metadata.h)(0x684287F4)
+I (..\Bootloader_IAP\crc_user.h)(0x683FA836)
+F (..\Bootloader_IAP\Select_fw.c)(0x6847EF8A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/select_fw.o -MMD)
+I (..\Bootloader_IAP\Select_fw.h)(0x68416D9C)
+I (..\Bootloader_IAP\fw_metadata.h)(0x684287F4)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+I (..\Bootloader_IAP\fmc_user.h)(0x6826D4BC)
+I (..\Bootloader_IAP\targetdev.h)(0x683FA914)
+I (..\Bootloader_IAP\ISP_USER.h)(0x683FB398)
+I (..\Bootloader_IAP\crc_user.h)(0x683FA836)
+F (..\Bootloader_IAP\uart_transfer.c)(0x6847F05E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/uart_transfer.o -MMD)
+I (..\Bootloader_IAP\targetdev.h)(0x683FA914)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+I (..\Bootloader_IAP\ISP_USER.h)(0x683FB398)
+I (..\Bootloader_IAP\fmc_user.h)(0x6826D4BC)
+I (..\Bootloader_IAP\fw_metadata.h)(0x684287F4)
+I (..\Bootloader_IAP\crc_user.h)(0x683FA836)
+I (..\Bootloader_IAP\uart_transfer.h)(0x6838424A)
+F (..\Bootloader_IAP\targetdev.c)(0x6847EFEA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/targetdev.o -MMD)
+I (..\Bootloader_IAP\targetdev.h)(0x683FA914)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+I (..\Bootloader_IAP\ISP_USER.h)(0x683FB398)
+I (..\Bootloader_IAP\fmc_user.h)(0x6826D4BC)
+I (..\Bootloader_IAP\fw_metadata.h)(0x684287F4)
+I (..\Bootloader_IAP\crc_user.h)(0x683FA836)
+F (..\Bootloader_IAP\crc_user.c)(0x6847EE5B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/crc_user.o -MMD)
+I (..\Bootloader_IAP\crc_user.h)(0x683FA836)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+F (..\Bootloader_IAP\isp_user.h)(0x683FB398)()
+F (..\Bootloader_IAP\fw_metadata.h)(0x684287F4)()
+F (..\Bootloader_IAP\fmc_user.h)(0x6826D4BC)()
+F (..\Bootloader_IAP\Select_fw.h)(0x68416D9C)()
+F (..\Bootloader_IAP\uart_transfer.h)(0x6838424A)()
+F (..\Bootloader_IAP\targetdev.h)(0x683FA914)()
+F (..\Bootloader_IAP\crc_user.h)(0x683FA836)()
+F (..\..\Library\StdDriver\src\crc.c)(0x68258FBE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/crc.o -MMD)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+F (..\..\Library\StdDriver\src\fmc.c)(0x6821B68C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/fmc.o -MMD)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)
+F (..\..\Library\StdDriver\src\wdt.c)(0x67F63399)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../Library/Device/Nuvoton/NUC1261/Include -I ../../Library/StdDriver/inc-I./RTE/_ISP_UART-IC:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include-D__UVISION_VERSION="542" -D_RTE_-o ./obj/wdt.o -MMD)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\NUC1261.h)(0x6838424A)
+I (C:\Users\barry\AppData\Local\arm\packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0.h)(0x664BD888)
+I (..\..\Library\Device\Nuvoton\NUC1261\Include\system_NUC1261.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sys.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\clk.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\adc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\ebi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\fmc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\gpio.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\i2c.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\timer_pwm.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wdt.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\wwdt.h)(0x67F63399)
+I (..\..\Library\StdDriver\inc\rtc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\hdiv.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\acmp.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\crc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usbd.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\pdma.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\sc.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\scuart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_spi.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_uart.h)(0x67F63398)
+I (..\..\Library\StdDriver\inc\usci_i2c.h)(0x67F63398)

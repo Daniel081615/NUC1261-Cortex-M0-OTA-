@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.42.0.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 barrysu88@gmail.com
+1
+User-based license: Keil MDK Community (non-commercial free of charge)
+Valid until: Jun 1 2033. Cached until: Jun 17 2025
+ 
+Tool Versions:
+Toolchain:       Keil MDK Community (non-commercial free of charge  Version: 5.42.0.0
+Toolchain Path:  C:\Users\barry\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.23
+Assembler:       Armasm.exe V6.23
+Linker/Locator:  ArmLink.exe V6.23
+Library Manager: ArmAr.exe V6.23
+Hex Converter:   FromElf.exe V6.23
+CPU DLL:         SARMCM3.DLL V5.42.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      NULink\Nu_Link.dll V3.19
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\barry\OneDrive\Desktop\Bootloader_OTA_Package\Fw_ota\Project\Fw_ota.uvprojx
+Project File Date:  06/09/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.23', folder: 'C:\Users\barry\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target_1'
+assembling startup_NUC1261.s...
+compiling fmc.c...
+compiling main.c...
+compiling fmc_user.c...
+compiling fw_status.c...
+compiling fw_selfcheck.c...
+compiling uart_user.c...
+compiling uart_comm.c...
+compiling fw_ota_mark_setup.c...
+compiling crc_util.c...
+compiling fw_metadata.c...
+compiling crc.c...
+compiling system_NUC1261.c...
+compiling wdt_user.c...
+compiling wdt.c...
+linking...
+..\Output\Fw_ota.axf: Warning: L6340W: options first and last are ignored for link type of scattered
+Program Size: Code=5528 RO-data=224 RW-data=12 ZI-data=1356  
+Finished: 0 information, 1 warning and 0 error messages.
+After Build - User command #1: fromelf --bin ".\objects\Fw_ota.axf" --output ".\objects\Fw_ota.bin"
+After Build - User command #2: fromelf --text -c ".\objects\Fw_ota.axf" --output ".\objects\Fw_ota.txt"
+"..\Output\Fw_ota.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Nuvoton
+                https://github.com/OpenNuvoton/cmsis-packs/raw/master/Nuvoton_DFP/Nuvoton.NuMicroM0_DFP.1.0.0.pack
+                Nuvoton::NuMicroM0_DFP@1.0.0
+                Nuvoton ARM Cortex-M0 NuMicro Family Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/barry/AppData/Local/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/barry/AppData/Local/arm/packs/Nuvoton/NuMicroM0_DFP/1.0.0/Device/NUC1261/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
